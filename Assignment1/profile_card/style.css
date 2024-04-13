@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+image{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-color: #ffd966;
+    --secoundary-color: #000000;
+    --normal-pd: 20px 10px;
+    --big-pd: 50px 30px;
+    --big-round-pd: 50px;
+    --primary-boxshadaw: 0px 0px 16px 0px rgba(0,0,0,0.12);
+    --normal-radious: 20px;
+    --full-radious: 50%;
+    --primary-font-size: 38px;
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size:  18px;
+    border: 1px solid transparent;
+    margin: 0 5px;
+}
+.btn-secoundary{
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size:  18px;
+    border: 1px solid black;
+    margin: 0 5px;
+}
+.card-section{
+    background-color: white;
+    padding: var(--big-pd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    padding: var(--big-pd);
+    box-shadow: var(--primary-boxshadaw);
+    border-radius: var(--normal-radious);
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.label {
+    position: absolute;
+    left: 10px;
+    top: 38px;
+    background: #05f1ad;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transform: rotate(-45deg);
+}
+.card img{
+    width: 200px;
+    border-radius: var(--full-radious);
+    margin-bottom: 10px;
+}
+.short-desc-of-profile {
+    text-align: center;
+}
+.profile-counter{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px;
+}
+.profile-counter div{
+    text-align: center;
+}
+.profile-counter h6{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.profile-counter h5{
+    font-size: 22px;
+}
+.profile-btn{
+    margin-top: 20px;
+    display: flex;
+}
